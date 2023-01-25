@@ -164,7 +164,7 @@ function set_circle_element(elm, value) {
                         
                         var eos_amount = "0.0001 EOS";
 
-                        //   var eos_memo = "POW is Bitcoin on DPoS";
+                        var eos_memo = "";
                         //   var eos_receive_account = "eosiopowcoin";
                         var eos_receive_account = "eosiopowcoin";
 
@@ -181,7 +181,8 @@ function set_circle_element(elm, value) {
                                 data: {
                                     "from": scatter_account,
                                     "to": eos_receive_account,
-                                    "quantity": eos_amount
+                                    "quantity": eos_amount,
+                                    "memo": eos_memo
                                 }
 
                             }]
@@ -238,7 +239,7 @@ function set_circle_element(elm, value) {
 
                         var eos_amount = "0.0001 EOS";
 
-                        //   var eos_memo = "POW is Bitcoin on DPoS";
+                        var eos_memo = "";
                         //   var eos_receive_account = "eosiopowcoin";
                         var eos_receive_account = "eosiopowcoin";
 
@@ -256,7 +257,8 @@ function set_circle_element(elm, value) {
                             data: {
                                 "from": scatter_account,
                                 "to": eos_receive_account,
-                                "quantity": eos_amount
+                                "quantity": eos_amount,
+                                "memo": eos_memo
                             }
                         };
 
